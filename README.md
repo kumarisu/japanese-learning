@@ -8,6 +8,8 @@
 + PWA
 # Features
 ## Kanji N5~N1
++ Support flash card
++ Support writing practice (display HAN-VIET, meaning)
 ## Goi N5~N1
 ## Grammar N5~N1
 ## Shadowing
