@@ -7,7 +7,7 @@ npm run build
 
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
-copy dist\* git-public
+cp -R dist/* git-public
 
 cd git-public
 git add -A
