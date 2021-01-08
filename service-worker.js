@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/japanese-learning/precache-manifest.7496a9801621876fa236796e2eebddd0.js"
+  "/japanese-learning/precache-manifest.81a51618b3b1b9d1d25c1e63973e4bb2.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "japanese-learning"});
