@@ -4,11 +4,15 @@ set -e
 # build
 npm run build
 # navigate into the build output directory
-cd dist
+
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
-git init
+copy dist\* git-public
+
+cd git-public
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:kumarisu/japanese-learning.git master:gh-pages
-cd -
+git push
+
+# windows cmd
+cd ..
